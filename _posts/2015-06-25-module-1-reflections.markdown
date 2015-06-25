@@ -5,6 +5,7 @@ date:   2015-06-25
 ---
 <p class="intro"><span class="dropcap">H</span>oly s&#t, I know how to code.</p>
 
+
 Sort of.
 
 This week marks the end of the my first module at Turing School. The program here is divided into four six-week modules, the first one focusing entirely on Ruby fundamentals. When I first started six weeks ago, I could write the classic hello-world program and not much else.
