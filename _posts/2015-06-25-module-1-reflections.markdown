@@ -8,7 +8,7 @@ date:   2015-06-25
 
 Sort of.
 
-This week marks the end of the my first module at Turing School. The program here is divided into four six-week modules, the first one focusing entirely on Ruby fundamentals. When I first started six weeks ago, I could write the classic hello-world program and not much else.
+This week marks the end of my first module at Turing School. The program here is divided into four six-week modules, the first one focusing entirely on Ruby fundamentals. When I first started six weeks ago, I could write the classic hello-world program and not much else.
 
 Today, a classmate and I are turning in a [project](https://github.com/marlabrizel/sales_engine) where we hand-built a relational database.
 
