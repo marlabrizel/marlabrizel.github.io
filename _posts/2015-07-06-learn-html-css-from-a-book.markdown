@@ -18,4 +18,4 @@ The book does combine CSS and HTML in the same document. While I understand this
 
 Finally, the book touches on HTML5 and CSS3, explaining some of the new features of each and potential implementation pitfalls.
 
-I cracked open this book as someone with limited HTML proficiency and absolutely *no* CSS experience and was able to build my own website from scratch in the span of several hours. If the book didn't weigh as much as it does, I'd carry it with me everywhere to use as a reference.
+I cracked open this book as someone with limited HTML proficiency and absolutely *no* CSS experience and was able to build my own [website](http://www.marlabrizel.com/) from scratch in the span of several hours. If the book didn't weigh as much as it does, I'd carry it with me everywhere to use as a reference.
