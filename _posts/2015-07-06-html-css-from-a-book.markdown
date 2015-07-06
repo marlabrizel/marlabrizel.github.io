@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learn HTML and CSS - From A Book!"
-date:   2015-06-25
+date:   2015-07-06
 ---
 
 <p class="intro"><span class="dropcap">I</span> know, right?</p>
