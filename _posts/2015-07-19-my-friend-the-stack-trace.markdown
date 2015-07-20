@@ -5,16 +5,17 @@ date:   2015-07-19
 ---
 
 <figure>
-  <img src="../assets/failing_test.png" alt="terminal output of failing test suite">
+  <img src="./assets/failing_test.png" alt="terminal output of failing test suite">
   <figcaption>HALP.</figcaption>
 </figure>
 
 <p class="intro"><span class="dropcap">E</span>rrors are your friends.</p>
 
 This idea was difficult for me to grasp when I first started programming. A typical block of work time would consist of the following:
-1. Write some tests and some code that should theoretically make those tests pass<br>
-2. Run the tests<br>
-3. Get terminal output similar to the image above<br>
+
+1. Write some tests and some code that should theoretically make those tests pass
+2. Run the tests
+3. Get terminal output similar to the image above
 4. Panic
 
 I would watch my screen fill up with terrifying error messages and I'd freeze. Yes, I know my code is broken thankyouverymuch. It took me a while to appreciate that what lay before me on the screen was not a pile of computer word vomit but rather a roadmap of sorts, and all I needed to do was learn how to read it.
