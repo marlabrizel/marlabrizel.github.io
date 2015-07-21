@@ -5,7 +5,7 @@ date:   2015-07-19
 ---
 
 <figure>
-  <img src="/assets/img/failing_test.png" alt="terminal output of failing test suite">
+  <img src="/assets/img/failing_tests.png" alt="terminal output of failing test suite">
   <figcaption>HALP.</figcaption>
 </figure>
 
