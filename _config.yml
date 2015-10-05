@@ -23,3 +23,5 @@ social:
    twitter: marlabrizel
 
 google_analytics: "UA-48000406-1"
+
+exclude: [vendor]
