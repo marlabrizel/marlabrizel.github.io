@@ -51,7 +51,7 @@ Commit your changes to this file and push to trigger your first build. If all go
 
 ##### Configure API keys
 
-If all you have is a vanilla Rails project without any bells and whistles, you should be set. But things will blow up as soon as you start layering on additional dependencies. What happens, say, if your application uses a 3rd-party API? You don't have your keys checked into version control, do you? Since these are stored locally somewhere, you'll need to somehow pass them to Travis so that any API calls made in the tests can run.
+If all you have is a vanilla Rails project without any bells and whistles, you should be set. But things will blow up as soon as you start layering on additional dependencies. What happens, say, if your application uses a 3rd-party API? (*You don't have your keys checked into version control, do you?*) Since your credentials are stored locally somewhere, you'll need to somehow pass them to Travis so that any API calls made in the tests can run.
 
 The good news is that, if you're using VCR and have checked the cassettes into version control, Travis will read these cassettes when running the tests. Because the tests are running from the cassettes, no external calls are being made, so you can get away with stubbing out an API key. Travis will read your keys from a set of global environment variables; therefore, the key names will still need to match what you have defined elsewhere.
 
