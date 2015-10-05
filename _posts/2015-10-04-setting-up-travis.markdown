@@ -43,7 +43,9 @@ script:
   - bundle exec rake
 {% endhighlight %}
 
-Here we're specifying a language (Ruby) and a version (2.2.2) for our build. These should match your dev environment. Then we're giving Travis a script to execute. `bundle install` installs all of the Gems specified in the Gemfile, and `bundle exec rake db:setup` creates and migrates the database as well as runs the seed file should it exist. Finally `bundle exec rake` runs your test suite. I recommend using the rake command as it's test framework-agnostic.
+Here we're specifying a language (Ruby) and a version (2.2.2) for our build. These should match your dev environment. Note that the one thing that *doesn't* need to match is your choice of version management. For example, I use `rbenv` to manage ruby versions on my local machine, but the Travis VMs use `rvm` so I specify this version manager in my configuration.
+
+After adding language and version, we giving Travis a script to execute. `bundle install` installs all of the gems specified in the Gemfile, and `bundle exec rake db:setup` creates and migrates the database as well as runs the seed file should it exist. Finally `bundle exec rake` runs your test suite. I recommend using the rake command as it's test framework-agnostic, meaning you won't have to update your Travis scripts should you some day choose to move from Test::Unit to RSpec or vice-versa.
 
 ##### Trigger a build
 
@@ -86,7 +88,7 @@ VCR.configure do |config|
 end
 {% endhighlight %}
 
-This addition will replace the value associated with the environment variable passed in each block with the string specified between brackets. You'll want a separate line for each piece of data you wish to sanitize.
+This addition will replace the value associated with the environment variable passed in each block with the string specified between brackets. If you don't do this, your API keys and other sensitive data will be recorded in plain text in your cassettes (oops). You'll want a separate line for each piece of data you wish to sanitize.
 
 ##### Configure an additional database
 
