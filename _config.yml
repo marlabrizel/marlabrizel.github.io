@@ -3,7 +3,7 @@ description: Code and stuff and things from a newbie developer
 
 url: http://blog.marlabrizel.com
 baseurl: ""
-paginate_path: "page:num/"
+paginate_path: page:num/
 permalink: :title/
 
 markdown: redcarpet
